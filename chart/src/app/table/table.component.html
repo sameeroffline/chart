@@ -1,0 +1,44 @@
+<div class="container">
+    
+    <div class="row">
+        <div class="search-hero">
+            <input type="text"class="in" name="search"  [(ngModel)]= "searchText" placeholder="search id ">
+            <button type="button" name="serach" aria-placeholder="search"> Search</button>
+        </div><br>
+        <table class="table  table-striped">
+          
+            <thead>
+                <tr>
+                    <th>ORDER DATE</th>
+                    <th>ORDER NUMBER</th>
+                    <th>ORDER PLACED BY</th>
+                    <th>NUMBER OF PRODUCT</th>
+                    <th>PRODUCT DETAILS</th>
+                    <th>ORDER TOTAL VALUE</th>
+                    <th>DATE AND TIME LAST ACTION</th>
+                    <th>COMMENT</th>
+                    <th>STATUS</th><br><br><br>
+
+
+                </tr>
+            </thead>
+
+            <tbody>
+                
+                <tr *ngFor= "let hero of hero | filter:searchText"  [ngStyle]="{'background-color':hero.color}">
+                    <td>{{hero.date}}</td>
+                    <td>{{hero.number}}</td>
+                    <td>{{hero.placed}}</td>
+                    <td>{{hero.np}}</td>
+                    <td>{{hero.pd}}</td>
+                    <td>{{hero.otv}}</td>
+                    <td>{{hero.dat}}</td>
+                    <td>{{hero.comment}}</td>
+                    <td>{{hero.status}}</td>
+                </tr>
+                
+            </tbody>
+
+</table>
+    </div>
+</div>

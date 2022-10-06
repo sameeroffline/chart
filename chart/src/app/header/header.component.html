@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.0-beta1 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+
+
+  <nav class="navbar navbar-expand-sm  fixed-top" style="z-index: 2;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)">EffecTube</a>
+
+
+      <div class="container" style="width: 325px;">
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <div class="container-fluid">
+    <div class="row" id="a">
+
+      <div class="col-md-8">
+        <iframe width="100%" height="480px"  allow='autoplay' src="https://www.youtube.com/embed/k5E2AVpwsko" [src]="urlSafe">
+        </iframe>
+        <!-- <div img src="https://www.datocms-assets.com/48401/1645127056-angular-2-hours.jpeg?fit=max&w=900" alt="img"
+          height="45%" width="100%">
+        </div> -->
+      </div>
+
+
+
+      <div class="col-md-4">
+
+        <div class="row">
+          <div class="col-md-6">
+            <div (click)="playvideo()" class="one">
+              <img src="https://www.datocms-assets.com/48401/1645127056-angular-2-hours.jpeg?fit=max&w=900" alt="img"
+                height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <span>
+              <h6>Angular Tutorial for Beginners: Learn Angular & TypeScript</h6>
+              <p>272M views 5 months ago</p>
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div (click)="playvideo1()" class="one">
+              <img src="https://www.datocms-assets.com/48401/1645127060-angular-crash-course.jpeg?fit=max&w=900"
+                alt="img" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <span>
+              <h6>Angular Full Course - Learn Angular in 6 Hours | Angular Tutorial For Beginners | Edureka</h6>
+              <p>27M views 5 years ago</p>
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div (click)="playvideo2()" class="one">
+              <img src="https://www.pragimtech.com/wp-content/uploads/2019/03/angularjs.jpg" alt="img" height="100%"
+                width="100%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <span>
+              <h6 class="display-flex">Coke Studio | Season 14 | Pasoori | Ali Sethi x Shae Gill</h6>
+              <p>272M views 5 months ago</p>
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div (click)="playvideo3()" class="one">
+              <img src=" https://blog.ag-grid.com/content/images/size/w600/2020/01/video-thumbnail-2.png" alt="img"
+                height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <span>
+              <h6 class="display-flex">Coke Studio | Season 14 | Pasoori | Ali Sethi x Shae Gill</h6>
+              <p>272M views 5 months ago</p>
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div (click)="playvideo4()" class="one">
+              <img
+                src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTMF0-YummZzofKGISmm9UYTxtmPz-rOeO9AJyYQ01dbYsYdaQVUfBqf_ot9-oUoQCTkk&usqp=CAU"
+                alt="img" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <span class="side">
+              <h6 class="display-flex">Coke Studio | Season 14 | Pasoori | Ali Sethi x Shae Gill</h6>
+              <p>272M views 5 months ago</p>
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div (click)="playvideo5()" class="one">
+              <img src="https://i.ytimg.com/vi/oBuTWzuZkA4/maxresdefault.jpg" alt="img" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <span>
+              <h6>Coke Studio | Season 14 | Pasoori | Ali Sethi x Shae Gill</h6>
+              <p>272M views 5 months ago</p>
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div (click)="playvideo6()" class="one">
+              <img src=" https://i.ytimg.com/vi/mDoHtD1hI3I/maxresdefault.jpg" alt="img" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <span>
+              <h6>Coke Studio | Season 14 | Pasoori | Ali Sethi x Shae Gill</h6>
+              <p>272M views 5 months ago</p>
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

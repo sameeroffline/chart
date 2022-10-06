@@ -1,0 +1,20 @@
+nav{
+    background-color: cadetblue;
+    
+}
+/* 
+.side{
+    margin-right: -30px;
+   
+} */
+ 
+.one {
+    display: flex;
+    
+}
+.row {
+    width: 100%;
+    margin-top: 80px;
+}
+@media(max-width: 999px){
+}
